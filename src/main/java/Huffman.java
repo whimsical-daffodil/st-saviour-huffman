@@ -57,6 +57,8 @@ public class Huffman {
 
     /*
      * generateCodes() populates the codes HashMap given a starting root Node and a code String.
+     * The codes HashMap maps characters to Strings which represent edge paths. 
+     * ex: {'a': "0", 'b': "11", 'c': "101"}
      */
     private void generateCodes(Node node, String code) {
 
