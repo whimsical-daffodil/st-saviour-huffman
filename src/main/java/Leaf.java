@@ -1,5 +1,5 @@
 public class Leaf extends Node {
-    private final char character;
+    private char character;
 
     /*
      * TODO
@@ -10,12 +10,4 @@ public class Leaf extends Node {
      * Lastly, the Leaf class should implement a getCharacter() getter method.
      */
 
-    public Leaf(char character, int frequency) {
-        super(frequency);
-        this.character = character;
-    }
-
-    public char getCharacter() {
-        return this.character;
-    }
 }

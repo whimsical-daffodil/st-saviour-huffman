@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Huffman huffman = new Huffman("aaaaaaaabbbbbbbccccddd");
+        Huffman huffman = new Huffman("aaaaabbbbcccdde");
 
         String encodedText = huffman.encode();
         System.out.println(encodedText);
