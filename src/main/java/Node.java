@@ -37,18 +37,14 @@ public class Node implements Comparable<Node> {
     // Getter stuff
   
     public Node getLeftNode() {
-       return left;
+       return this.left;
    }
 
 
    public Node getRightNode() {
-       return right;
+       return this.right;
    }
 
-
-   public int getFrequency() {
-       return frequency;
-   }
 
 
    @Override

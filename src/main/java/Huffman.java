@@ -35,7 +35,10 @@ public class Huffman {
        // If the char does not exist as a key in the frequencies HashMap, create a new entry and set the value to 1.
        // If the char already exists in the frequencies HashMap, increase its current value by 1.
        for (char c : text.toCharArray()) {
-           frequencies.put(c, frequencies.getOrDefault(c, 0) + 1);
+        if (frequencies.get(c)== null){
+            frequencies.put(c,0);
+        }
+           frequencies.put(c, frequencies.get(c)+1);
        }
    }
 
